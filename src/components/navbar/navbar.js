@@ -20,7 +20,7 @@ export default class Navbar extends Component {
 
                 <div className ='navbar-icon' onClick={this.openMenu}>
                 
-                   &#9776;
+                  MENU &#9776;
                 </div>
                 
                 <ul className = 'navbar-items'>    
@@ -31,7 +31,7 @@ export default class Navbar extends Component {
                     <li>CONTACT</li>
             
                 </ul>
-
+            
                 </nav>
 
                 <ul className={this.state.menu ? 
@@ -46,6 +46,8 @@ export default class Navbar extends Component {
                     <li> CONTACT </li>
 
                 </ul>
+            
+                
             </div>
         )
     }
